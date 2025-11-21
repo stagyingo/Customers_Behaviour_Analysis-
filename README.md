@@ -1,75 +1,79 @@
-# ZEE’S SHOP CUSTOMER PURCHASING HABITS AND BEHAVIOUR
-Analysis of Customer Purchase Behaviour from Zee's Mart  Customer Dataset.
+# ZEE’S SHOP CUSTOMERS PURCHASING HABITS AND BEHAVIOUR
+Analysis of Customers Purchase Behaviour from Zee's Mart  Customer Dataset.
 
-
-![](Dash1.jpg)
+![](Dashboard.png)
  
 ## Introduction
 
-This project analyzes transactional data from *ZEE’s online retail shop* to uncover customer purchase habits and behaviors. By understanding patterns such as purchase frequency, average order value and product preferences, we aim to uncover actionable insights that could optimize sales strategies, improve marketing campaigns and enhance customer retention efforts.
+This project analyzes transactional data from **ZEE’s Online Retail Shop** to uncover customers purchasing habits and behaviors.
+By understanding patterns such as purchase frequency, average order value and product preferences, aim to uncover actionable insights that
+could optimize sales strategies, improve marketing campaigns and enhance customer retention efforts.
 
-Goal of Analysis
+
+## Goal of Analysis
+
 1.	To analyze overall customer dataset and identify high-performing products and customer segments.
 2.	To derive data backed insights that could help stakeholders to improve customer experience, sales strategies, Project strategies and marketing efforts.
  
  
 ## Problem Statement
-The stakeholders of ZEE’s shop wanted to move away from "mass marketing" and towards "targeted marketing."  They want to better understand its customers’ shopping behavior in order to improve sales, customer satisfaction, and long-term loyalty. The management team has noticed changes in purchasing patterns across demographics, product categories, and sales channels (online vs. offline). They are particularly interested in uncovering which factors, such as discounts, reviews, seasons, or payment preferences, drive consumer decisions and repeat purchases. 
 
-The Challenge: The marketing team struggled to distinguish between high-value loyalists and one-time shoppers. They needed a data-driven approach to segment their audience and optimize ad spend. “How can the company leverage consumer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies?”
+The stakeholders of ZEE’s shop wanted to move away from "mass marketing" and towards "targeted marketing."  They want to better understand its customers’ shopping
+behavior in order to improve sales, customer satisfaction, and long-term loyalty. The management team has noticed changes in purchasing patterns across demographics,
+product categories, and sales channels (online vs. offline). They are particularly interested in uncovering which factors, such as discounts, reviews, seasons, or payment preferences,
+drive consumer decisions and repeat purchases. 
 
- 
+**_The Challenge_**: The marketing team struggled to distinguish between high-value loyalists and one-time shoppers. They needed a data-driven approach to segment their audience and optimize ad spend. 
+“How can the company leverage consumer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies?”
 
-📂 Dataset Description
+
+📂 **Dataset Description**
 The dataset used in this analysis contains transactional data from an online retail store. It includes customer information, product details, and purchase history. 
 Rows: 3,900, Columns: 18 
 
-Key Features:
-o	Customer demographics (Age, Gender, Location, Subscription Status) 
-o	Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color) 
-o	Shopping behavior (Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type) 
-o	Missing Data: 37 values in Review Rating column
+**Key Features:**
+- Customer demographics (Age, Gender, Location, Subscription Status)
+- Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color)
+- Shopping behavior (Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type)
+- Missing Data: 37 values in Review Rating column
+
+
 ##  ⚙️ Tools/ Skill and Methodologies demonstrated 
+
 The following tools and technologies were used to perform this analysis:
-1.	Excel: - To preview and do basic cleaning
-2.	Python: Data Preparation and Advance cleaning.
-Pandas: For data manipulation and cleaning. 
--	Exploratory Data Analysis (EDA)
--	Missing Data Handling
--	Column Standardization
-Data Consistency Check
--	 Database Integration
-NumPy: For numerical operations.
-Jupyter Notebooks: Used for interactive analysis and visualizations.
+1.	**Excel**: - To preview and do basic cleaning
+2.	**Python**: Data Preparation and Advance cleaning.
+- Pandas: For data manipulation and cleaning. 
+ -	Exploratory Data Analysis (EDA)
+ -	Missing Data Handling
+ -	Column Standardization
+ - Data Consistency Check
+ -	 Database Integration
+- NumPy: For numerical operations.
+- Jupyter Notebooks: Used for interactive analysis and visualizations.
 
-3.	SQL:  PostgreSQL 
--	For querying data stored in relational databases.
--	performed structured analysis in PostgreSQL to answer key business questions
-
+3.	**SQL**:  PostgreSQL 
+ -	For querying data stored in relational databases.
+ -	performed structured analysis in PostgreSQL to answer key business questions
 
 4.	POWER BI
 -	Build interactive dashboard in Power BI to present insights visually
 -	Made use of measure, slicer, Filters, 
+  
  
+## Visualization
 
-## Modelling
-Automatically derived relationships are adjusted to remove and replace unwanted relationships with the required.
-There are 5-dimention table s and 1 fact table. The dimension tables are all joined to the fact table with one-to-many relationship.
+**GENDER BASED VISUALIZATION**
+
+ FEMALE         |     MALE
+:---------------:|:-------------------------:
+![](female.png)        | ![](male.png)
+
+ SUBSCIBERS         |     UNSUSCRIBERS
+:---------------:|:-------------------------:
+![](subscriber.png)        | ![](Unsuscribers.png)
  
-Adjusted Model          |     Auto Model
-:----------------------:|:-------------------------:
-![](Dash1.jpg )        | ![](Dash2.jpg)
- 
- 
-## Visualization:
- 
-The report comprises of 4 pages:
-1. Customer hx
-2. Product catalog
-3. Transaction hx
-4. Warehouse
- 
-You can interact with report [here](powerBI service link here)
+You can interact with report [here](https://surl.li/wnoalg)
  
 ![](Dash1.jpg)
 Feature:
