@@ -1,35 +1,39 @@
 # ZEE’S SHOP CUSTOMERS PURCHASING HABITS AND BEHAVIOUR
-Analysis of Customers Purchase Behaviour from Zee's Mart  Customer Dataset.
+Analysis of Customers Purchase Behaviour from Zee's Mart Dataset.
 
 ![](Dashboard.png)
  
 ## Introduction
 
-This project analyzes transactional data from **ZEE’s Online Retail Shop** to uncover customers purchasing habits and behaviors.
-By understanding patterns such as purchase frequency, average order value and product preferences, aim to uncover actionable insights that
-could optimize sales strategies, improve marketing campaigns and enhance customer retention efforts.
+This project analyzes transactional data from **ZEE’s Shop** to uncover customers purchasing habits and behaviors.
+Aim to uncover actionable insights that could optimize sales strategies, improve marketing campaigns and enhance customer retention efforts.
+
+By understanding patterns such as;
+- purchase frequency
+- Average order value
+- product preferences
 
 
 ## Goal of Analysis
 
-1.	To analyze overall customer dataset and identify high-performing products and customer segments.
+1.	To analyze overall customer and product dataset and identify high-performing products and customer segments.
 2.	To derive data backed insights that could help stakeholders to improve customer experience, sales strategies, Project strategies and marketing efforts.
  
  
-## Problem Statement
+## Problem Statement 🤔
 
 The stakeholders of ZEE’s shop wanted to move away from "mass marketing" and towards "targeted marketing."  They want to better understand its customers’ shopping
-behavior in order to improve sales, customer satisfaction, and long-term loyalty. The management team has noticed changes in purchasing patterns across demographics,
+behavior in order to improve sales, customer satisfaction, and long-term loyalty. The management team has also noticed changes in purchasing patterns across demographics,
 product categories, and sales channels (online vs. offline). They are particularly interested in uncovering which factors, such as discounts, reviews, seasons, or payment preferences,
 drive consumer decisions and repeat purchases. 
 
-**_The Challenge_**: The marketing team struggled to distinguish between high-value loyalists and one-time shoppers. They needed a data-driven approach to segment their audience and optimize ad spend. 
+**_The Challenge_**:🤔 The marketing team struggled to distinguish between high-value loyalists and one-time shoppers. They needed a data-driven approach to segment their audience and optimize ad spend. 
 “How can the company leverage consumer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies?”
 
 
 📂 **Dataset Description**
 The dataset used in this analysis contains transactional data from an online retail store. It includes customer information, product details, and purchase history. 
-Rows: 3,900, Columns: 18 
+Rows: 3,900, Columns: 18  (Available upon request)
 
 **Key Features:**
 - Customer demographics (Age, Gender, Location, Subscription Status)
@@ -52,16 +56,16 @@ The following tools and technologies were used to perform this analysis:
 - NumPy: For numerical operations.
 - Jupyter Notebooks: Used for interactive analysis and visualizations.
 
-3.	**SQL**:  PostgreSQL 
+3.	**SQL**:  PostgreSQL
  -	For querying data stored in relational databases.
  -	performed structured analysis in PostgreSQL to answer key business questions
 
-4.	POWER BI
+4.	POWER BI 📊
 -	Build interactive dashboard in Power BI to present insights visually
 -	Made use of measure, slicer, Filters, 
   
  
-## Visualization
+## Visualization 📊
 
 **GENDER BASED VISUALIZATION**
 
@@ -71,16 +75,20 @@ The following tools and technologies were used to perform this analysis:
 
  SUBSCIBERS         |     UNSUSCRIBERS
 :---------------:|:-------------------------:
-![](subscriber.png)        | ![](Unsuscribers.png)
+![](susbscriber.png)        | ![](Unsuscribers.png)
  
 You can interact with report [here](https://surl.li/wnoalg)
- 
-![](Dash1.jpg)
-Feature:
-- The four tabls are buttons with hovering effect and each navigates to the page with similar name.
-- Hamuger is button to display the country and month filters while the red coloured "X'  button close the filter.
- 
-## Analysis
+
+  SQL iNTERFACE         |     PYTHON, JUPYTER NOTEBOOK
+:---------------:|:-------------------------:
+![](SQL.png)        | ![](Python.png)
+
+ SUBSCIBERS         |     UNSUSCRIBERS
+:---------------:|:-------------------------:
+![](susbscriber.png)        | ![](Unsuscribers.png)
+
+
+## Analysis 📈📉
  
 🔑 Key Findings
 Here are some key insights drawn from the analysis:
@@ -90,28 +98,6 @@ Here are some key insights drawn from the analysis:
 4.	Seasonal Trends: Sales peaked around Black Friday and other major shopping holidays, while the summer months saw a dip in purchases.
 5.	Demographic Insights: Younger customers (18-35) had higher spending in electronics, while middle-aged customers (36-50) preferred clothing and home goods.
 
-
-### Customer History: 
- 
-![](dash2.jpg)
- 
-The store currently have a total of 1765 customers.
-330k orders were made in the current year.
- 
-### Product catalog
- 
-![](dash1.jpg)
- 
-there are 128 products in the stores with worth of 140 million dollars.
-Each product cost more than 1K dollars on average.
- 
-### Transaction History:
- 
-![](dash1.jpg_)
- 
-Total selling pricee is 140 million.
-The highest gross income was generated in July.
-There is an intermittent rise and fall in the gross income of the store by every month in the current year.📉
  
 ## Conlusion and Recommendation
  
